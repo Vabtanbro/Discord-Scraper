@@ -25,10 +25,17 @@ Open the developer tools by pressing CTRL + SHIFT + I *(Command + Shift + I on m
 Gather the guild ID that you want to scrape from by right-clicking on the icon for the guild on the left-side of the Discord window and selecting *"Copy ID"*.
 ![https://imgur.com/14ysTcN](https://i.imgur.com/14ysTcN.png "Step 5")
 
-If you're wanting to grab from a direct message instead, then this method won't return the correct ID that is needed by the script.
-
-The only real way to get this with ease through the Discord app is to open the direct message you want to scrape from and then open the developer tools to see the correct ID in the title bar of the developer tools window and paste it into the JSON file.
 
 **Step 6:**
 Gather the channel ID that you want to scrape from by right-clicking on the channel name to the right of the guild icons and selecting *"Copy ID"*.
 ![https://imgur.com/cdpTLCG](https://i.imgur.com/cdpTLCG.png "Step 6")
+
+
+
+**Step 7:**
+After Getting Authorization token,guild ID,channel ID
+Save Them In config.data File
+As Shown Below
+![https://imgur.com/uWB9cFZ](https://i.imgur.com/uWB9cFZ.jpeg "Step 7")
+
+file_name  = Any Name that You Want to Be As output File.
